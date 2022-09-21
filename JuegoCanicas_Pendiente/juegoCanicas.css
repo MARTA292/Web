@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    align-content: center;
+}
+header{
+    align-items: center;
+}
+article{
+    border-radius: 3%;
+}
+
+#jugadores {
+    background-color: #666666a8;
+    border-radius: 2%;
+    display: grid; 
+    grid-gap: 1em;
+    grid-auto-flow: row;
+    grid-template-columns: 30% 30%;
+    grid-template-rows: 200px 400px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* padding-left: 30%; */
+    margin-left:  auto;
+    margin-right: auto;
+    width: 90%;
+}

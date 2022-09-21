@@ -1,0 +1,10 @@
+div > img {
+  height: 300px;
+  width: 200px;
+}
+
+.contManitas {
+  border: 4px solid #969696;
+  background: #d9dbda;
+  margin: 10px;
+}

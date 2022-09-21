@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="juegoCanicas.css"/>
+    <title>Juego de las canicas</title>
+</head>
+<body>
+    <!--<section>
+        <p>Juego de las canicas</p>
+    </section>
+    <table>
+        <tr>
+            <td>Ana<img id="0" src="fist.png" width="50%" height ="50%" onclick ='clickedCell(this);'/></td>
+            <td>Rafa<img id="1" src="fist.png" width="50%" height ="50%" onclick ='clickedCell(this);'/></td>
+        </tr>
+    </table>
+
+    <h5>Partidas ganadas: <span id="contador">    0</span></h5>
+    <button id="reinicio" onClick="refreshPage()">Reinicio</button> -->
+
+   <header>
+          <h1>Juguemos a los Chinos</h1>
+          <h4>Modo de juego: solo dos jugadores</h4>
+    </header>
+    <section id="jugadores">
+        <article>
+            <h4>Ana</h4>
+            <img id="0" src="fist.png" width="50%" height ="50%" onclick ='clickedCell(this);'/>
+            <p>Apuesta: <span id="apuesta1"> 0</span></p>
+            <p>Contador: <span id="contador1"> 0</span></p>
+            <p id="medalla1"></p>
+        </article>
+        <article>
+            <h4>Rafa</h4>
+            <img id="1" src="fist.png" width="50%" height ="50%" onclick ='clickedCell(this);'/>
+            <p>Apuesta: <span id="apuesta2"> 0</span></p>
+            <p>Contador: <span id="contador2"> 0</span></p>
+            <p id="medalla2"></p>
+        </article>
+    </section>
+    <section>
+        <p>Llevo: <input id="canica" type="number"> Apuesto: <input id="apuesto" type="number"> </p>
+        <button id="apostar" onClick="apostar()">Apostar</button>
+        <button id="ganador" onClick="verGanador()">Abrir y ver ganador</button>
+        <button id="newGame" onClick="refreshPage()">Otra partida</button>
+    </section>
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="juegoCanicas.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Manitas</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Manitas</h1>
+        <h2>Averigua donde esta la bola, si fallas me regalas tu alma</h2>
+    </header>
+
+    <table>
+        <thead>
+            <th><p>Victorias <p id = "victorias">0</p></p></th>    
+            <th><p>Derrotas <p id = "derrotas">0</p></p> </th>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td><div class="contManitas"><img src = "imagenes/cerrada.jpg" id="izquierda"></div></td>
+                
+                <td><div class="contManitas"><img src = "imagenes/cerrada.jpg" id="derecha"></div></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button type="submit"  onClick="refreshPage(true)">Reset</button>
+    <button type="submit" onClick="pista()">Pista</button>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script src="mainclase.js"></script>
+</body>
+</html>
